@@ -16,6 +16,13 @@ import Section from '../components/section';
 import Paragraph from '../components/paragraph';
 import { ChevronRightIcon } from '@chakra-ui/icons';
 import { BioSection, BioYear } from '../components/bio';
+import {
+    IoLogoTwitter,
+    IoLogoInstagram,
+    IoLogoGithub,
+    IoLogoDiscord,
+} from 'react-icons/io5'
+
 const Page = () => {
     return (
         <Container>
@@ -56,7 +63,8 @@ const Page = () => {
                 <Paragraph>
                     Opa, beleza?! Eu sou Jonas Timbaúba 🤠🖖🏽
                     <br />
-                    Faço Ciência da Computação na Unifor - Universidade de Fortaleza, sou apaixonado por back-end, séries e uns jogos ai!
+                    Faço Ciência da Computação na Unifor - Universidade de Fortaleza, sou apaixonado por back-end,
+                    mas também programo para frontend, gosto de séries e estou sempre jogando ou tocando algum instrumento.
                     <NextLink href="/works/inkdrop">
                         <Link> Inkdrop</Link>
                     </NextLink>
@@ -99,8 +107,49 @@ const Page = () => {
                 </Heading>
 
                 <Paragraph>
-                Música, tocar instrumentos, assistir séries e jogar.
+                    Música, tocar instrumentos, assistir séries e jogar.
                 </Paragraph>
+            </Section>
+
+            <Section delay={0.3}>
+                <Heading as="h3" variant="section-title">
+                    On the web
+                </Heading>
+
+                <List>
+                    <ListItem>
+                        <Link href="https://github.com/JonasTB" target="_blank" ></Link>
+                        <Button
+                            variant="ghost"
+                            colorScheme="teal"
+                            leftIcon={<Icon as={IoLogoGithub} />}
+                        >
+                            @JonasTB
+                        </Button>
+                    </ListItem>
+
+                    <ListItem>
+                        <Link href="https://www.instagram.com/timbaubafj/" target="_blank" ></Link>
+                        <Button
+                            variant="ghost"
+                            colorScheme="teal"
+                            leftIcon={<Icon as={IoLogoInstagram} />}
+                        >
+                            @timbaubafj
+                        </Button>
+                    </ListItem>
+
+                    <ListItem>
+                        <Link href="https://twitter.com/timbaubafj" target="_blank" ></Link>
+                        <Button
+                            variant="ghost"
+                            colorScheme="teal"
+                            leftIcon={<Icon as={IoLogoTwitter} />}
+                        >
+                            @timbaubafj
+                        </Button>
+                    </ListItem>
+                </List>
             </Section>
         </Container>
     )
