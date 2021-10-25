@@ -20,7 +20,6 @@ import {
     IoLogoTwitter,
     IoLogoInstagram,
     IoLogoGithub,
-    IoLogoDiscord,
 } from 'react-icons/io5'
 
 const Page = () => {
@@ -61,10 +60,10 @@ const Page = () => {
                     Work
                 </Heading>
                 <Paragraph>
-                    Opa, beleza?! Eu sou Jonas Timbaúba 🤠🖖🏽
+                    It&apos;s all right?! I&apos;m Jonas Timbaúba 🤠🖖🏽
                     <br />
-                    Faço Ciência da Computação na Unifor - Universidade de Fortaleza, sou apaixonado por back-end,
-                    mas também programo para frontend, gosto de séries e estou sempre jogando ou tocando algum instrumento.
+                    I do Computer Science at Unifor - Universidade de Fortaleza, I&apos;m passionate about backend,
+                    but I also program for frontend, I like series and I&apos;m always playing or playing an instrument
                     <NextLink href="/works/inkdrop">
                         <Link> Inkdrop</Link>
                     </NextLink>
@@ -74,7 +73,7 @@ const Page = () => {
                 <Box align="center" my={4}>
                     <NextLink href="/works">
                         <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-                            Meu portfólio
+                            My portfolio
                         </Button>
                     </NextLink>
                 </Box>
@@ -87,27 +86,27 @@ const Page = () => {
 
                 <BioSection>
                     <BioYear>1999</BioYear>
-                    Nascido em Fortaleza - Ceará, Brasil.
+                    Born in Fortaleza - Ceará, Brasil.
                 </BioSection>
 
                 <BioSection>
                     <BioYear>2017</BioYear>
-                    Ensino médio completo.
+                    Complete high school
                 </BioSection>
 
                 <BioSection>
                     <BioYear>2018 - 2021</BioYear>
-                    Em graduação no curso de Ciência da Computação.
+                    Undergraduate in Computer Science
                 </BioSection>
             </Section>
 
             <Section delay={0.3}>
                 <Heading as="h3" variant="section-title">
-                    Passion
+                    Passion ❤️
                 </Heading>
 
                 <Paragraph>
-                    Música, tocar instrumentos, assistir séries e jogar.
+                    Music, play instruments, watch series and play games.
                 </Paragraph>
             </Section>
 
