@@ -20,17 +20,13 @@ const LogoBox = styled.span`
 `
 
 const Logo = () => {
-  const footPrintImg = `/images/footprint${useColorModeValue(' ', '-dark')}.png`
-
-  // const katanaPrintImg = `/images/katana${useColorModeValue('', '-dark')}.png`
-
-  // const katanaPrintImg = `/images/katana2${useColorModeValue('', '-white')}.png`
+  const darthPrintImg = `/images/vader${useColorModeValue('', '-dark')}.png`
 
   return (
     <Link href="/">
       <a>
         <LogoBox>
-          <Image src={footPrintImg} width={20} height={20} alt="logo" />
+          <Image src={darthPrintImg} width={20} height={20} alt="logo" />
           <Text
             color={useColorModeValue('gray.800', 'whiteAlpha.900')}
             fontFamily='M PLUS Rounded 1c", sans-serif'
@@ -45,4 +41,4 @@ const Logo = () => {
   )
 }
 
-export default Logo
+export default Logo;
