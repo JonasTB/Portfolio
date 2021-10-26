@@ -117,36 +117,39 @@ const Page = () => {
 
                 <List>
                     <ListItem>
-                        <Link href="https://github.com/JonasTB" target="_blank" ></Link>
-                        <Button
-                            variant="ghost"
-                            colorScheme="teal"
-                            leftIcon={<Icon as={IoLogoGithub} />}
-                        >
-                            @JonasTB
-                        </Button>
+                        <Link href="https://github.com/JonasTB" target="_blank" >
+                            <Button
+                                variant="ghost"
+                                colorScheme="teal"
+                                leftIcon={<Icon as={IoLogoGithub} />}
+                            >
+                                @JonasTB
+                            </Button>
+                        </Link>
                     </ListItem>
 
                     <ListItem>
-                        <Link href="https://www.instagram.com/timbaubafj/" target="_blank" ></Link>
-                        <Button
-                            variant="ghost"
-                            colorScheme="teal"
-                            leftIcon={<Icon as={IoLogoInstagram} />}
-                        >
-                            @timbaubafj
-                        </Button>
+                        <Link href="https://www.instagram.com/timbaubafj/" target="_blank" >
+                            <Button
+                                variant="ghost"
+                                colorScheme="teal"
+                                leftIcon={<Icon as={IoLogoInstagram} />}
+                            >
+                                @timbaubafj
+                            </Button>
+                        </Link>
                     </ListItem>
 
                     <ListItem>
-                        <Link href="https://twitter.com/timbaubafj" target="_blank" ></Link>
-                        <Button
-                            variant="ghost"
-                            colorScheme="teal"
-                            leftIcon={<Icon as={IoLogoTwitter} />}
-                        >
-                            @timbaubafj
-                        </Button>
+                        <Link href="https://twitter.com/timbaubafj" target="_blank" >
+                            <Button
+                                variant="ghost"
+                                colorScheme="teal"
+                                leftIcon={<Icon as={IoLogoTwitter} />}
+                            >
+                                @timbaubafj
+                            </Button>
+                        </Link>
                     </ListItem>
                 </List>
             </Section>
